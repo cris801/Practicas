@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/btnAnimar"
         android:background="@color/colorAccent"
-        android:textColor="@color/back"
+        android:textColor="@android:color/white"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +45,7 @@
             android:layout_weight="1"
             android:background="@color/colorAccent"
             android:text="@string/btnAlpha"
-            android:textColor="@color/back"
+            android:textColor="@android:color/white"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -57,7 +57,7 @@
             android:layout_weight="1"
             android:background="@color/colorAccent"
             android:text="@string/btnRotate"
-            android:textColor="@color/back"
+            android:textColor="@android:color/white"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -85,7 +85,7 @@
             android:layout_weight="1"
             android:background="@color/colorAccent"
             android:text="@string/btnScale"
-            android:textColor="@color/back"
+            android:textColor="@android:color/white"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -97,7 +97,7 @@
             android:layout_weight="1"
             android:background="@color/colorAccent"
             android:text="@string/btnTranslate"
-            android:textColor="@color/back"
+            android:textColor="@android:color/white"
             android:textSize="18dp"
             android:textStyle="bold" />
 

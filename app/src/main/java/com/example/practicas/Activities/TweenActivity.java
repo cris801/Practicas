@@ -75,5 +75,13 @@ public class TweenActivity extends AppCompatActivity {
             }
         });
 
+        // para el boton de back
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }
