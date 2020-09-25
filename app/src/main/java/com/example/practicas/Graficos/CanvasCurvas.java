@@ -30,6 +30,7 @@ public class CanvasCurvas extends View {
         int width = getMeasuredWidth();
         int height = getMeasuredHeight();
 
+        // dibuja la forma geométrica especificada utilizando el dibujo especificado
         Path path = new Path();
         path.moveTo(0,0);
         for (int i = 1 ; i < width ; i++){
@@ -38,6 +39,8 @@ public class CanvasCurvas extends View {
         path.offset(0,100);
         canvas.drawPath(path,paint);
 
+        // manipulamos la percepción de la líneas por medio de intervalos que tienen diferentes valores
+        // 10 valores en canvas 10 en espacios
         float [] intervalos = {10,10};
         DashPathEffect dashPathEffect = new DashPathEffect(intervalos,1);
         paint.setPathEffect(dashPathEffect);

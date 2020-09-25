@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 public class CanvasGraficoInteractivo extends View {
+    // declaramos las variables para que puedan ser accedidas desde cualquier punto de la clase
     float x = 50;
     float y = 50;
 
@@ -29,14 +30,16 @@ public class CanvasGraficoInteractivo extends View {
         canvas.drawCircle(x,y,20,paint);
         paint.setColor(Color.BLACK);
         paint.setTextSize(35);
+        // Una vez reescritos los valores de las variables en el método onTouchEvent los imprimos en pantalla
         canvas.drawText("X = "+x,100,50,paint);
         canvas.drawText("Y = "+y,100,90,paint);
-
     }
 
+    //metodo que se ejecuta cada vez que se toca la pantalla
     @Override
     public boolean onTouchEvent(MotionEvent evento) {
         if (evento.getAction()==MotionEvent.ACTION_DOWN){
+            //obteniendo las coordenadas del evento en curso
             x = evento.getX();
             y = evento.getY();
             invalidate();

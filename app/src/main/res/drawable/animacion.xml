@@ -44,5 +44,4 @@
         android:drawable="@drawable/ic_u_png_14"
         android:duration="100" />
 
-
 </animation-list>

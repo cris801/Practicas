@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingHorizontal="22dp"
+    android:background="@android:color/white"
     tools:context=".Activities.MainActivity">
 
     <Button
@@ -13,7 +14,7 @@
         android:layout_height="65dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/btnCanvas"
-        android:textColor="@color/back"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonFormatoTexto"
@@ -28,7 +29,7 @@
         android:layout_height="65dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/btnTween"
-        android:textColor="@color/back"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonAltura"
@@ -44,7 +45,7 @@
         android:layout_height="65dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/btnFotograma"
-        android:textColor="@color/back"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

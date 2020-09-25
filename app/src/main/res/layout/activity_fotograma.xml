@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingHorizontal="22dp"
+    android:background="@android:color/white"
     tools:context=".Activities.FotogramaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
@@ -19,16 +19,12 @@
             android:layout_marginTop="32dp"
             android:background="@color/colorAccent"
             android:text="START"
-            android:textColor="@color/back"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
-
-
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
+            android:layout_height="match_parent" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

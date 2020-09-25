@@ -23,7 +23,6 @@ public class FotogramaActivity extends AppCompatActivity {
 
         porFotograma();
 
-
         // para el boton de back
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
@@ -43,14 +42,11 @@ public class FotogramaActivity extends AppCompatActivity {
         if (imageView == null) throw new AssertionError();
         // asignamos el xml animacion
         imageView.setBackgroundResource(R.drawable.animacion);
-        // visible solo un misil sin animacion
-        // invisible
+        // visible solo un misil sin animacion -
         imageView.setVisibility(View.VISIBLE);
 
-        // objeto para poder controlar la animacion
-        // va tomar el fondo -
+        // objeto para poder controlar la animacion - va tomar el fondo
         animacion = (AnimationDrawable) imageView.getBackground();
-
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

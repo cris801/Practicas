@@ -28,11 +28,15 @@ public class CanvasSiguiendoCurva extends View {
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.STROKE);
         Path path = new Path();
+        // indicamos al dirección que seguira
         Path.Direction direction = Path.Direction.CCW;
+        // radio
         float radio = 200;
         path.addCircle(width/2,500,radio,direction);
         path.offset(0,0);
+        // maneja el ángulo de partida en sentido contrario a las manecillas del reloj
         float hOffset=0;
+        // distancia del punto de partida que se toma es la ruta trazada
         float vOffset=-20;
         canvas.drawPath(path,paint);
         paint.setColor(Color.BLACK);

@@ -7,12 +7,11 @@
         android:fromYScale="3.0"
         android:toXScale="1.0"
         android:toYScale="1.0" />
-
     <alpha
-
         android:duration="2000"
         android:fromAlpha="0.0"
         android:toAlpha="1" />
+
     <rotate
         android:startOffset="2000"
         android:duration="2000"
