@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Practicas - Cristian Peña B.</string>
+    <string name="btnCanvas">Canvas</string>
+    <string name="btnTween">Tween</string>
+    <string name="btnFotograma">Fotograma</string>
+    <string name="btnCanvasUno">Canvas Uno</string>
+    <string name="btnCanvasFormatoTexto">Canvas Formato Texto</string>
+    <string name="btnCanvasAltura">Canvas Altura</string>
+    <string name="btnCanvasDimenciones">Canvas Altura</string>
+    <string name="btnCanvasCurvas">Canvas Altura</string>
+    <string name="btnCanvasTrasRot">Canvas Altura</string>
+    <string name="btnCanvasDimensiones">Canvas Dimensiones</string>
+    <string name="btnCanvasCurva">Canvas Curvas</string>
+    <string name="btnTrasR">Canvas Traslaciones y rotaciones</string>
+    <string name="btnCanvasSigCur">Canvas Siguiendo una curva</string>
+    <string name="btnCanvasDown">"Canvas action Down "</string>
+    <string name="btnCanvasUp">Canvas Action Up</string>
+    <string name="btnActionMove">Canvas Action Move</string>
+    <string name="btnAnimar">Animacion</string>
 </resources>
