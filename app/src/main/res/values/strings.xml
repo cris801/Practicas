@@ -17,4 +17,8 @@
     <string name="btnCanvasUp">Canvas Action Up</string>
     <string name="btnActionMove">Canvas Action Move</string>
     <string name="btnAnimar">Animacion</string>
+    <string name="btnAlpha">Alpha</string>
+    <string name="btnTranslate">Translate</string>
+    <string name="btnScale">Scale</string>
+    <string name="btnRotate">Rotate</string>
 </resources>

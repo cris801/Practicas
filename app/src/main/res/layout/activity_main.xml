@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/buttonUno"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/btnCanvas"
         android:textColor="@color/back"
@@ -24,8 +24,8 @@
 
     <Button
         android:id="@+id/buttonFormatoTexto"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/btnTween"
         android:textColor="@color/back"
@@ -40,8 +40,8 @@
 
     <Button
         android:id="@+id/buttonAltura"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/btnFotograma"
         android:textColor="@color/back"
