@@ -31,7 +31,6 @@ public class CanvasEventoActionMove extends View {
         paint.setTextSize(35);
         canvas.drawText("X = "+x,100,50,paint);
         canvas.drawText("Y = "+y,100,90,paint);
-
     }
 
     @Override
@@ -42,7 +41,6 @@ public class CanvasEventoActionMove extends View {
         if (evento.getAction() == MotionEvent.ACTION_DOWN){
             texto = "Action Down";
         }
-
         if (evento.getAction() == MotionEvent.ACTION_UP){
             texto = "Action Up";
         }

@@ -33,6 +33,7 @@ public class CanvasSiguiendoCurva extends View {
         // radio
         float radio = 200;
         path.addCircle(width/2,500,radio,direction);
+
         path.offset(0,0);
         // maneja el ángulo de partida en sentido contrario a las manecillas del reloj
         float hOffset=0;
